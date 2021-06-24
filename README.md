@@ -20,6 +20,11 @@
 
 Curso de Introdução ao Django 3: Modelo, Rotas e Views pela [Alura](https://cursos.alura.com.br/course/fundamentos-django-2)
 
+Para executar o servidor do Django use o comando:
+```sh
+$ python manage.py runserver
+```
+
 ## WHAT IS THE FINAL GOAL OF THE PRODUCT?
 
 N/A
@@ -40,9 +45,18 @@ N/A
 
 ```
 introduction-to-django
+.
+├── alurareceita
+│   ├── asgi.py
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
 ├── CHANGELOG.md
 ├── CONFIG.md
+├── manage.py
 └── README.md
+
 ```
 
 # SETUP LOCAL

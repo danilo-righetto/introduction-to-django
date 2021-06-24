@@ -7,7 +7,7 @@
 
 # INTRODUÇÃO
 
-
+Configuração para trabalhar com `Django`
 
 # PREPARANDO O AMBIENTE
 
@@ -33,6 +33,29 @@ Para saber se o `Django` foi instalado corretamente use o comando:
 $ pip freeze
 ```
 
+Para criar o projeto com `Django` use o comando abaixo:
+```sh
+$ django-admin startproject alurareceita .
+```
+
+Sobre os arquivos:
+
+```
+introduction-to-django
+.
+├── alurareceita
+│   ├── asgi.py
+│   ├── __init__.py # indica do Django que se trata de um pacote
+│   ├── settings.py # indica as principais configurações do projeto
+│   ├── urls.py # indica onde estão todas as urls do projeto
+│   └── wsgi.py # ponto de integração para servidores web compativeis
+├── CHANGELOG.md
+├── CONFIG.md
+├── manage.py
+└── README.md
+
+```
 
 # OPCIONAL - CONFIGURAÇÕES ADICIONAIS DO VS CODE
 
+N/A
