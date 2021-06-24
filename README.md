@@ -27,6 +27,11 @@ $ python manage.py runserver
 
 No `Django` temos uma aplicação com vários `apps`e cada `app` é responsável por executar uma determinada tarefa da aplicação. Uma aplicação pode ter vários `apps`.
 
+Para criar um novo `app` execute o comando abaixo:
+```sh
+$ python manage.py startapp app-name
+```
+
 ## WHAT IS THE FINAL GOAL OF THE PRODUCT?
 
 N/A
